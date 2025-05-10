@@ -8,10 +8,7 @@ TASA_ISR_2 = 0.20
 TASA_ISR_3 = 0.25
 
 def calcular_ISR(sueldo_mensual):
-    """
-    Calcula la retención del Impuesto Sobre la Renta (ISR)
-    según los tramos establecidos en RD (simplificados para el ejercicio).
-    """
+   
     if sueldo_mensual <= LIMITE_ISR_1:
         return 0
     elif sueldo_mensual <= LIMITE_ISR_2:
